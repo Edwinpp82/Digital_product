@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/****************************Variables*/
+:root {
+  --green-color: #7ACC2D;
+  --white-color: #ffffff;
+  --black-color: #313337;
+  /*Tipografia*/
+  --normal:12px;
+  /*Espaciado*/
+  --space: 10px;
+/*Box shadow*/
+  --box: 0px 0px 1px #e5e6e9;
+}
+
+body {
+  background-color: var(--black-color);
+  text-align: center;
+  color: var(--white-color);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.content_paypal a{
+  color: var(--green-color);
+}
